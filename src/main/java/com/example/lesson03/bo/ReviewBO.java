@@ -28,5 +28,13 @@ public class ReviewBO {
 	) {
 		return reviewDAO.insertReviewAsField(storeId, menu, userName, point, review);
 	}
+	
+	public int updateReviewById(int id, String review) {
+		return reviewDAO.updateReviewById(id, review);
+	}
+	
+	public void deleteReviewById(int id) {
+		reviewDAO.deleteReviewById(id);
+	}
 
 }
