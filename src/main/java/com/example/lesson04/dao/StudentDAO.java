@@ -8,5 +8,7 @@ import com.example.lesson04.model.Student;
 public interface StudentDAO {
 	
 	public void insertStudent(Student student);
+	
+	public Student selectStudentById(int id);
 
 }
