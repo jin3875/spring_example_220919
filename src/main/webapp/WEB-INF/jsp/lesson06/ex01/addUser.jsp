@@ -91,7 +91,7 @@
 				let introduce = $('#introduce').val();
 				console.log(introduce);
 				
-				// AJAX
+				// AJAX - 콜백함수 (Request + Response)
 				$.ajax({
 					// Request
 					type:"POST"
